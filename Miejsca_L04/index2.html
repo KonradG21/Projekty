@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Miejsca</title>
+	<meta name="description" content="Blog o najpiękniejszych miejscach na świecie">
+	<meta name="keywords" content="miejsca na świecie, miejsca, klimat">
+	<meta name="author" content="Janusz Kowalski">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!--mapa-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@7.1.0/dist/ol.css" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/ol@7.1.0/dist/ol.js"></script>
+	<!--formularz-->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	
+	<link rel="stylesheet" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header data-bs-spy="scroll" data-bs-target="#navbar-example" style="position: relative;">
+		<nav id="photo-navbar" class="navbar bg-place fixed-top navbar-dark navbar-expand-lg"> 
+			
+			 <div class="mzero container"> 
+				<a href="#" class="navbar-brand">
+					<img src="img/logo.png" class="px-0 mx-0 d-inline-block">
+					Place.com
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarPhotos">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navbarPhotos" class="collapse navbar-collapse">
+				<ul class=" navbar-nav me-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#wawel">Zamek na Wawelu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#moszna">Zamek Moszna</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#bora">Bora Bora</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#picchu">Machu Picchu</a>
+					</li>
+				</ul>
+			</div>
+		
+			
+
+
+		</nav>
+
+	</header>
+	<main>
+		<article class="place">
+			<div class="container">
+				<div class="row">
+					<div style="padding-top: 100px;">
+
+					
+					<div id="wawel" class="pd_max offset-sm-2 col-sm-8">
+						<h4>Zamek Królewski na Wawelu</h4>
+						<img src="img/Wawel.jpg" class="mh img-fluid">
+						<!-- Wawel -->
+						<p>Zamek Królewski na Wawelu, jeden z najważniejszych zabytków Polski, jest położony na malowniczym wzgórzu nad Wisłą w Krakowie. Zbudowany w stylu gotyckim, zamek był rezydencją wielu polskich królów. Obiekt kryje w sobie wiele tajemnic historii Polski, w tym legendę o smoku wawelskim. Wawel jest również domem dla wielu dzieł sztuki i rzadkich artefaktów. Zamek jest otwarty dla turystów i oferuje liczne wystawy oraz możliwość zwiedzania królewskich apartamentów. Jego architektura i zbiory są dowodem na bogatą kulturowo i historycznie przeszłość Polski.</p>
+					</div>
+				<hr>
+
+				<div id="moszna" class="pd_max offset-sm-2 col-sm-8">
+					<h4>Zamek w Mosznej</h4>
+					<img src="img/Moszna.jpg" class="mh img-fluid">
+					<!-- Moszna -->
+					<p>Zamek w Mosznej, położony w południowej Polsce, jest wyjątkową atrakcją turystyczną przypominającą baśniowy pałac. Zbudowany w XVII wieku, zamek posiada 365 pokoi i otoczony jest przez rozległy park pełen różnorodnych roślin. Architektura zamku jest mieszanką stylów barokowego, neogotyckiego i nowoczesnego. Moszna jest popularna wśród turystów, fotografów oraz organizatorów różnorodnych wydarzeń, w tym ślubów. Wewnętrzne wnętrza zamku zachwycają bogactwem i detalem wykonania, od fresków na sufitach po ręcznie rzeźbione meble. Zamek w Mosznej jest również znany z organizacji festiwalu kwiatów, który przyciąga turystów z całego świata.</p>
+				</div>
+
+				<hr>
+				<div id="bora" class="pd_max offset-sm-2 col-sm-8">
+					<h4>Bora Bora</h4>
+					<img src="img/Bora.jpg" class="mh img-fluid">
+					<!-- Bora Bora -->
+					<p>Bora Bora to wyspa w Polinezji Francuskiej, znana jako jeden z najpiękniejszych miejsc na Ziemi. Otoczona laguną o niesamowitych odcieniach błękitu i turkusu oraz koralową rafą, jest idealnym miejscem na luksusowy wypoczynek. Wyspa oferuje spektakularne widoki, ekskluzywne kurorty i prywatne bungalowy nad wodą. Bora Bora jest również rajem dla nurków, oferując bogate życie morskie i krystalicznie czyste wody. To idealne miejsce na miesiąc miodowy lub niezapomniane wakacje w tropikach. Bora Bora słynie również z przyjaznej i gościnnej kultury lokalnej, co czyni pobyt jeszcze bardziej magicznym.</p>
+				</div>
+
+				<hr>
+				<div id="picchu" class="pd_max offset-sm-2 col-sm-8">
+					<h4>Machu Picchu</h4>
+					<img src="img/Picchu.jpg" class="mh img-fluid">
+					<!-- Machu Picchu -->
+					<p>Machu Picchu, starożytne miasto Inków w Peru, jest jednym z nowych siedmiu cudów świata. Położone na wysokości 2430 metrów nad poziomem morza, oferuje zapierające dech w piersiach widoki na otaczające góry i doliny. To archeologiczne miejsce przyciąga miliony turystów każdego roku, którzy przybywają podziwiać dobrze zachowane ruiny i mistyczne kamienne konstrukcje. Machu Picchu jest również ważnym miejscem dla zrozumienia kultury i historii Inków. Dostępne są różnorodne trasy trekkingowe, w tym słynny Inca Trail. Odkrywanie tego miejsca to niezapomniana przygoda i podróż w czasie.</p>
+				</div>
+
+				<div id="" class="pd_max offset-sm-2 col-sm-8">
+					<h4></h4>
+					<img src="img/Picchu.jpg" class="mh img-fluid">
+
+				</div>
+<!-- Santorini -->
+<p>Santorini, znana również jako Thira, to jedna z najbardziej malowniczych wysp Grecji. Charakterystyczne białe budynki z niebieskimi dachami, usytuowane na stromych klifach, są ikonicznym widokiem, który jest często kojarzony z całym krajem. Santorini słynie z zachodów słońca, które są uważane za jedne z najpiękniejszych na świecie, szczególnie widziane z miasteczka Oia. Wyspa oferuje również wspaniałe plaże z czarnym piaskiem oraz bogatą ofertę gastronomiczną, z winami i produktami lokalnymi na czele. Santorini to również miejsce z bogatą historią, w tym starożytne miasto Akrotiri, dobrze zachowane archeologiczne znalezisko z epoki minojskiej.</p>
+
+<div id="" class="pd_max offset-sm-2 col-sm-8">
+	<h4></h4>
+	<img src="img/Picchu.jpg" class="mh img-fluid">
+
+</div>
+<!-- Jejudo -->
+<p>Jejudo, zwana również wyspą Jeju, to największa wyspa w Korei Południowej i jedno z najpopularniejszych kierunków turystycznych w kraju. Wyspa jest znana z unikalnych krajobrazów wulkanicznych, w tym z Hallasan, najwyższego szczytu w Korei. Jejudo oferuje różnorodność atrakcji, od pięknych plaż, przez spektakularne jaskinie lawowe, po zielone plantacje herbaty. Jest to także miejsce o bogatej kulturze i historii, z wieloma lokalnymi festiwalami i muzeami. Wyspa Jeju jest idealnym miejscem dla miłośników przyrody i tych, którzy szukają ucieczki od miejskiego zgiełku.</p>
+
+<div id="" class="pd_max offset-sm-2 col-sm-8">
+	<h4></h4>
+	<img src="img/Picchu.jpg" class="mh img-fluid">
+
+</div>
+<!-- Whitehaven Beach -->
+<p>Plaża Whitehaven na Wyspach Whitsunday w Australii słynie z nieskazitelnie białego piasku, który jest jednym z najczystszych na świecie. Plaża rozciąga się na 7 km i jest łatwo rozpoznawalna dzięki błyszczącym turkusowym wodom i malowniczym zatokom. Jest to jeden z najbardziej fotografowanych krajobrazów w Australii. Whitehaven jest idealnym miejscem do pływania, snorkelingu i po prostu relaksu na słońcu. Dzięki ścisłym przepisom ochronnym, plaża zachowała swój dziewiczy charakter i jest często wymieniana w rankingach najpiękniejszych plaż na świecie. Odpoczynek na Whitehaven to prawdziwe doświadczenie rajskiej plaży.</p>
+
+<div id="" class="pd_max offset-sm-2 col-sm-8">
+	<h4></h4>
+	<img src="img/Picchu.jpg" class="mh img-fluid">
+
+</div>
+<!-- Grand Canyon -->
+<p>Wielki Kanion w Stanach Zjednoczonych to jeden z najbardziej znanych i spektakularnych przykładów erozji na świecie. Kanion ma długość 446 km, głębokość do 1,6 km, a jego szerokość waha się od 6,4 do 29 km. Przez miliony lat rzeka Kolorado wyżłobiła w płaskowyżu Kolorado ten niezwykły krajobraz, który co roku przyciąga miliony turystów. Wielki Kanion oferuje niezliczone trasy piesze, widoki z różnych punktów widokowych oraz możliwość spływów rzecznych. To miejsce o niepowtarzalnej urodzie i potędze natury, które zostaje w pamięci na całe życie.</p>
+
+<div id="" class="pd_max offset-sm-2 col-sm-8">
+	<h4></h4>
+	<img src="img/Picchu.jpg" class="mh img-fluid">
+
+</div>
+<!-- Banff National Park -->
+<p>Park Narodowy Banff, położony w sercu Gór Skalistych w prowincji Alberta w Kanadzie, jest jednym z najstarszych parków narodowych na świecie. Z jego niezwykłymi górskimi krajobrazami, krystalicznie czystymi jeziorami i bogatym życiem dzikiej przyrody, Banff jest rajem dla miłośników przyrody. Park oferuje szereg aktywności na świeżym powietrzu, w tym wędrówki, kajakarstwo, jazdę na nartach i obserwację zwierząt. Jezioro Louise i Jezioro Moraine, dwa z najbardziej znanych jezior w Banff, słyną z ich intensywnie turkusowej wody i spektakularnych górskich tła. Park Narodowy Banff jest idealnym miejscem dla każdego, kto chce doświadczyć surowego piękna kanadyjskich Gór Skalistych.</p>
+
+<div id="" class="pd_max offset-sm-2 col-sm-8">
+	<h4></h4>
+	<img src="img/Picchu.jpg" class="mh img-fluid">
+
+</div>
+<!-- Great Blue Hole -->
+<p>Wielki Błękit, znany również jako Great Blue Hole, znajduje się w Belize i jest jednym z największych na świecie morskich otworów krasowych. Ten ogromny, okrągły otwór o średnicy 300 metrów i głębokości 125 metrów, jest popularnym miejscem nurkowym, znany z krystalicznie czystych wód i bogatego życia morskiego. Wielki Błękit powstał jako jaskinia wapienna podczas ostatniej epoki lodowcowej, kiedy poziom morza był znacznie niższy. Znurkowanie w Great Blue Hole oferuje niezapomniane doświadczenie, z możliwością zobaczenia różnorodnych formacji skalnych i morskiego życia w głębinach tego niebieskiego otworu.</p>
+
+<div id="Plitwickie" class="pd_max offset-sm-2 col-sm-8">
+	<h4>Plitwickie Jeziora</h4>
+	<img src="img/Plitwickie.jpg" class="mh img-fluid">
+	<!-- Plitvice Lakes -->
+<p>Plitwickie Jeziora w Chorwacji to system 16 połączonych jezior, które są oddzielone naturalnymi tamami z wapiennych osadów. Jeziora znane są z ich różnorodnych, żywych kolorów, które zmieniają się od błękitu, przez zieleń, aż po szarość, w zależności od ilości minerałów w wodzie i kąta padania światła. Park Narodowy Plitwickie Jeziora, wpisany na listę światowego dziedzictwa UNESCO, przyciąga turystów z całego świata swoimi oszałamiającymi wodospadami, czystymi jeziorami i gęstymi lasami. Spacer po drewnianych kładkach i ścieżkach parku pozwala podziwiać niesamowitą przyrodę i spokój tego magicznego miejsca.</p>
+</div>
+
+<div id="reef" class="pd_max offset-sm-2 col-sm-8">
+	<h4>Great Barrier Reef</h4>
+	<img src="img/Rafa.jpg" class="mh img-fluid">
+<!-- Great Barrier Reef -->
+<p>Wielka Rafa Koralowa, położona u wschodnich wybrzeży Australii, jest największą na świecie rafą koralową, obejmującą ponad 2,900 pojedynczych raf i 900 wysp na długości ponad 2,300 kilometrów. Rafa jest domem dla niezliczonej ilości gatunków morskich, w tym ryb, żółwi, rekinów i wielu innych. Wielka Rafa Koralowa jest nie tylko rajem dla nurków i snorkelistów, ale również kluczowym miejscem badań naukowych i ochrony morskiego życia. Choć rafa stoi w obliczu zagrożeń, takich jak zmiana klimatu i zanieczyszczenie wód, nadal pozostaje jednym z najbardziej spektakularnych naturalnych cudów świata.</p>
+
+</div>
+					</div>
+				</div>
+
+			</div>
+		</article>
+		<article>
+			<div id="map" class="map"></div>
+			<script>
+				var map = new ol.Map(
+					{
+						target: 'map',
+						layers:[
+							new ol.layer.Tile({
+								source: new ol.source.OSM()
+							})
+						],
+						view: new ol.View({
+							center: ol.proj.fromLonLat([19.945, 50.0647]),
+							zoom: 14
+						})
+					});
+			</script>
+		</article>
+	</main>
+	<aside>
+		<div class="container mt-5">
+			<h2>formularz rejestracji</h2>
+				<form action="">
+					<div class="mb-3">
+						<label for="name" class="form-label">Imię i nazwisko</label>
+						<input type="text" name="name" id="email" class="form-control">
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">Email</label>
+						<input type="text" name="email" id="email" class="form-control">
+					</div>
+
+					<div class="mb-3">
+						<label for="place" class="form-label">Miejsce</label>
+						<select class="form-select" name="place" id="place">
+							<option value="">Wybierz miejsce</option>
+							<option value="wawel">Zamek Królewski na Wawelu</option>
+							<option value="moszna">Zamek Moszny</option>
+						</select>
+					</div>
+					<div class="mb-3">
+						<label for="date">Data</label>
+						<input type="text" name="date" id="date" class="form-control">
+					</div>
+					<div class="mb-3">
+					<button type="submit" class="btn btn-light">Zarezerwuj</button>
+				</div>
+				</form>
+		</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+				 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+				 <script>
+				   $(document).ready(function() {
+					 // Inicjalizacja kalendarza
+					 $("#date").datepicker({
+					   dateFormat: "yy-mm-dd", // Format daty
+					   minDate: 0, // Minimum dzisiaj
+					   // Dodaj tutaj dodatkowe opcje kalendarza, jeśli potrzebujesz
+					 });
+				   });
+				 </script>
+	</aside>
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

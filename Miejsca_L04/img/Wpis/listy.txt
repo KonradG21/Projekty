@@ -1,0 +1,31 @@
+						<h3>Najpiękniejsze miejsca</h3>
+						<ul>
+							<li>Zamek Królewski na Wawelu</li>
+							<li>Zamek w Mosznej</li>
+							<li>Bora Bora</li>
+							<li>Machu Picchu</li>
+							<li>Santorini</li>
+							<li>Jejudo</li>
+							<li>Plaża Whitehaven</li>
+							<li>Wielki Kanion</li>
+							<li>Park Narodowy Banff</li>	
+							<li>Wielki Błękit</li>
+							<li>Plitwickie Jeziora</li>
+							<li>Wielka Rafa Koralowa</li>
+						</ul>
+						
+
+						<h3>Mapa serwisu</h3>
+						<ol>
+							<li>Strona główna</li>
+							<li>Historia</li>	
+							<ul>
+								<li>Kiedyś</li>					
+								<li>Dziś</li>						
+								<li>Zabytki</li>						
+								<li>Atrakcje</li>	
+							</ul>					
+							<li>Zdjęcia</li>						
+							<li>Mapy</li>						
+							<li>Kontakt</li>				
+						</ol>

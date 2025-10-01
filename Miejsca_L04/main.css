@@ -1,0 +1,232 @@
+body
+{
+	background-color: #303030;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #d78a05;
+	margin: 20px;
+}
+
+.pd_max{
+	padding: 90px 0 60px 0;
+}
+
+.bg-place {
+	--bs-bg-opacity: 1;
+	background-color:  #d78a05 !important;
+  }
+
+.place
+{
+	text-align: center;
+	padding: 0;
+}
+
+.place p 
+{
+	margin-top: 30px;
+}
+
+.place figcaption
+{
+	margin-top: 8px;
+}
+
+/*.moja
+{
+	margin-left: 25px;
+}
+*/
+
+.form-r
+{
+	margin-left: auto;
+}
+
+
+
+
+
+/*Niepotrzebne z wersji pierwotnej
+.place_
+{
+	display: inline-block;
+	width: 32%;
+	
+}*/
+
+/*.place_ img
+{
+	width: 100%;
+}*/
+
+/*.place_ figure
+{
+	margin: 10px;
+}*/
+
+.place img
+{
+	width: 100%;
+	height: auto;
+}
+
+/*wyrónanie wyszukiwarki do prawej*/
+
+  
+
+/*Scalowanie ekranu
+@media screen and (max-width: 576px) 
+{
+	body
+	{
+		background-color: red;
+		font-size: 15px;
+	}
+	h1
+	{
+		font-size: 25px;
+		font-weight: 400;
+		color: #000000;
+		margin: 10px;
+	}
+	.place
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
+	}
+	.place_
+		{
+			display: block;
+			width: 100%;	
+		}
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) 
+{
+	body
+	{
+		background-color: green;
+		font-size: 16px;
+	}
+	h1
+	{
+		font-size: 30px;
+		font-weight: 400;
+		color: #65dddd;
+		margin: 10px;
+	}
+	.place
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 550px;
+	}
+	.place_
+		{
+			width: 49%;
+		}
+}
+
+*/
+
+
+
+.wpis
+{
+	text-align: justify;
+	font-size: 16px;
+	padding: 30px;
+	/* opcjanalnie jak nie w HTML-u
+	margin-bottom: 40px;
+	*/
+}
+
+.blockquote
+{
+	line-height: 120%;
+}
+
+.list-group-item-dark
+{
+	background-color: #373a3d;
+	color: white;
+	border: 1px #505050 solid;
+}
+
+.list-group-item-dark:hover
+{
+	background-color: #d78a05 !important;
+	color: white;
+}
+
+.list-group .active
+{
+	background-color: #d78a05 !important;
+	color: white;
+	cursor: default;
+}
+
+/*opcja
+.list-group-item-action:focus
+{
+	background-color: red;
+}*/
+
+@media (max-width:575px) 
+{
+	.wpis
+	{
+		margin: 40px 20px;
+		text-align: left;
+		font-size: 15px;
+	}
+
+	/*.img-thumbnail*/
+	.float-start, .float-start-end
+	{
+		max-width: 50%;
+	}
+
+	.blockquote
+	{
+		font-size: 17px;
+		line-height: 180%;
+	}
+
+	.list-group-item, .list-group-item-dark, .list-group-item-action
+	{
+		text-align: left;
+	}
+}
+
+#mainCarousel
+{
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.mh
+{
+	max-height: 200px;
+	overflow: hidden;
+}
+
+.mzero
+{
+	padding: 0;
+	margin: 0;
+	left: 0;
+}
+.map{
+	height: 400px;
+	width: 100%;
+}
