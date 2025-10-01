@@ -1,0 +1,191 @@
+body
+{
+	font-size: 22px;
+ background-color: lightgoldenrodyellow !important;
+ margin: 70px 0 70px 0 !important;
+}
+
+h1, h2, h3
+{
+text-align: center;
+}
+hr{
+	height: 5px;
+	color: black !important;
+	background-color: black !important;
+	opacity: 100 !important;
+	width: 70%;
+}
+h1
+{color: crimson !important;
+}
+nav{
+	top: 0 !important;
+	position: fixed !important;
+	width: 100% !important;
+}
+footer{
+	background-color: goldenrod;
+	color: white;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+/* usuwanie display */
+.clearboth{
+	clear: both;}
+	/* tworzenie odstępu pomiędzy elementami */
+.breakinfo{
+    height: 200px;
+}
+.info{
+    text-align: center;
+    
+}
+.container {
+	width: 100%;
+}
+/* skalowanie divów */
+.galpsy, .galkoty, .galkwiaty {
+	width: 33%;
+	display: inline-flex;
+	text-align: center;
+}
+/* skalowanie divów lorem */
+.lorempierwszy{
+	font-size: 22px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-bottom: 100px;
+}
+.lorempierwszyobraz{
+	float: right;
+	text-align: center;
+	
+}
+.loremdrugi{
+	font-size: 22px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-bottom: 100px;
+}
+.loremdrugiobraz{
+float: right;	
+text-align: center;
+	
+
+}
+.loremtrzeci{
+	font-size: 22px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	border: 3px dotted red;
+	margin: 30px 30px 100px 30px;
+	width: 43%;
+	float: left;
+	text-align: justify;
+}
+.loremczwarty{
+	font-size: 22px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	border: 3px dotted blue;
+	margin: 30px 30px 100px 30px;
+	width: 43%;
+	float: right;
+	text-align: justify;
+}
+/*  */
+.infoglownastrona > p > a{
+	color: gray;
+	text-decoration: none;
+}
+
+/* skalowanie powrót do głównej */
+.powrotdoglownej{
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.powrotdoglownej > a{
+	color: gray;
+	text-decoration: none;
+}
+
+
+
+/* skalowanie ekranu średnie */
+@media screen and (min-width: 768px) and (max-width: 990px) 
+{
+	body
+	{
+		background-color: lightblue !important; 
+		font-size: 15px;
+	}
+	.galsection {
+		display: inline-flex;
+		width: 900px;
+
+	}
+	.galpsy, .galkoty, .galkwiaty {
+		width: 48%;
+		display: inline-flex;
+		text-align: center;
+	}
+	.powrotdoglownej{
+		clear: both;
+		width: 100%;
+	}
+	.lorempierwszy{
+		font-size: 18px;
+	}
+	.loremdrugi{
+		font-size: 18px;
+	}
+	.loremtrzeci{
+		width: 40%;
+		font-size: 18px;
+	}
+	.loremczwarty{
+		width: 40%;
+		font-size: 18px;
+	}
+}
+/* skalowanie ekranu małe */
+@media only screen and (max-width: 767px) 
+{
+	body
+	{
+		background-color: lightgrey !important;
+	}
+	.galsection {
+		display: block;
+		width: 750px;
+
+	}
+	.galpsy, .galkoty, .galkwiaty {
+		width: 100%;
+		display: inline-flex;
+		text-align: center;
+	}
+	.powrotdoglownej{
+		clear: both;
+		width: 100%;
+	}
+	.lorempierwszy{
+		font-size: 14px;
+	}
+	.loremdrugi{
+		font-size: 14px;
+	}
+	.loremtrzeci{
+		width: 35%;
+		font-size: 14px;
+	}
+	.loremczwarty{
+		width: 35%;
+		font-size: 14px;
+	}
+	.navbar-collapse{
+		display: none !important;
+	}
+}
+
